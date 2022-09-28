@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    #heading {
+      border: 0px solid black;
+      height: 200px;
+      width: 100%;
+      background-color: rgb(242, 235, 235);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1px;
+    }
+
+    #heading > p ~ p {
+      text-decoration: underline;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #heading > h4 {
+      font-weight: 100;
+    }
+    #benifits {
+      border: 1px solid red;
+      display: flex;
+      justify-content: center;
+    }
+    #benifits > img {
+      width: 70%;
+    }
+    #form{
+        border: 1px solid black;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    #form>div{
+        border: 1px solid black;
+        height: 40px;
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    #form>div>img{
+        width: 100%;
+        height: 100%;
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+    }
+    #form>form{
+        border: 1px solid red;
+        width: 30%;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    #form>form>input{
+        width: 100%;
+        font-size: 15px;
+        padding: 5px 0px 5px 0px;
+        
+    }
+  </style>
+  <body>
+    <div id="heading">
+      <h3>MYOOX</h3>
+      <h4>REGISTRATION</h4>
+      <p>
+        Take advantage of a faster checkout and enjoy promotions for registered
+        customers only
+      </p>
+      <p id="benifits_btn">Discover all the benifits</p>
+    </div>
+    <div id="benifits">
+      <img
+        src="https://www.yoox.com/images/yoox80/banners/5498_2_Registration_US.png?634485886869569819"
+        alt=""
+      />
+    </div>
+    <div id="form">
+        <p>REGISTER WITH YOUR SOCIAL MEDIA ACCOUNT</p>
+        <div></div>
+        <div></div>
+        <p>OR WITH YOUR EMAIL</p>
+        <form action="">
+            <input type="text" placeholder="FIRST NAME*">
+            <input type="text" placeholder="LAST NAME">
+            <input type="text" placeholder="E-MAIL*">
+            <input type="text" placeholder="PASSWORD*">
+            <input type="submit" value="REGISTER">
+        </form>
+    </div>
+  </body>
+</html>
+<script></script>
