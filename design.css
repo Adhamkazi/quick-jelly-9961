@@ -1,0 +1,230 @@
+#shopping_categroy {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    width: 100%;
+    background-color: #333333;
+    justify-content: center;
+    /* position: fixed;
+    z-index: 2;
+    margin-top: -10px; */
+
+}
+
+#shopping_categroy p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+#collecting {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+
+
+}
+
+#img1 {
+    width: 60%;
+    margin-left: 150px;
+}
+
+#img1 img {
+    width: 85%;
+
+}
+
+#img1 div {
+    margin-top: -150px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 7px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+#img1 div h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+#img1 div p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+#img2 {
+    width: 40%;
+}
+
+#img2 img {
+    width: 60%;
+
+}
+
+#img2 div {
+    margin-left: 20px;
+}
+
+#img2 div h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+#img2 div p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+#quote {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+}
+
+#add {
+    text-align: center;
+}
+
+#add img {
+    width: 50%
+}
+
+#add h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+#add p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#last_div {
+    width: 100%;
+    display: flex;
+    gap: 20px
+}
+
+#grid {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 80%;
+    gap: 20px;
+}
+
+
+#grid div {
+    text-align: center;
+}
+
+#grid div img {
+    width: 80%;
+}
+
+#grid div h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+#grid div p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#grid1 {
+    margin-top: 150px;
+    width: 40%;
+    text-align: center;
+}
+
+#grid1 img {
+    width: 80%;
+    margin-left: -140px;
+}
+
+#grid1 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-left: -130px;
+}
+
+#grid1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#top_picks {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+h4 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top_picks div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top_picks div img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#top_picks div h4 {
+    font-size: 12px;
+}
+
+#top_picks div p {
+    font-size: 12px;
+}
+
+#top_picks div h5 {
+    font-size: 12px;
+}
+
+#last_img {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+
+
+#last_img img {
+    width: 100%;
+}
+
+#last_img div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#last_img div p {
+    font-size: 13px;
+}
+
+#last_img div h3 {
+    text-align: center;
+}
+
+#last_img div a {
+    color: #fff;
+    font-size: 15px;
+}

@@ -1,0 +1,117 @@
+#shopping_categroy {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    width: 100%;
+    background-color: #333333;
+    justify-content: center;
+    /* position: fixed;
+z-index: 2;
+margin-top: -10px; */
+}
+
+#shopping_categroy p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+#home {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+#home p {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: rgb(160, 160, 161);
+}
+
+#home p a {
+    color: rgb(160, 160, 161);
+}
+
+#off {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+
+}
+
+#off img {
+    margin-top: 10px;
+}
+
+#main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+
+#options {
+    margin-top: 20px;
+    width: 20%;
+    display: grid;
+    gap: 8px;
+    height: 150px;
+}
+
+#options div {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+#product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+#imgs img {
+    width: 80%;
+}
+
+#imgs div {
+    margin-top: -10px;
+    display: flex;
+    gap: 30px;
+}
+
+#imgs {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#imgs h4 {
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+#imgs p {
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+#imgs h3 {
+    text-decoration: line-through;
+    color: rgb(205, 205, 205);
+    font-size: 15px;
+    margin-bottom: -1px;
+}
+
+#imgs h5 {
+    font-size: 13px;
+    margin-top: 15px;
+}
