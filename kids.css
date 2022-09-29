@@ -2,12 +2,12 @@
     display: flex;
     gap: 10px;
     margin: auto;
-    width: 99%;
+    width: 100%;
     background-color: #333333;
     justify-content: center;
-    position: fixed;
-    z-index: 2;
-    margin-top: -10px;
+    /* position: fixed; */
+    /* z-index: 2; */
+    /* margin-top: -10px; */
 }
 
 #shopping_categroy p {
@@ -30,7 +30,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 #Sale img {
@@ -90,7 +90,6 @@
 
 #details p {
     margin: auto;
-
     font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
     font-size: 14px;
