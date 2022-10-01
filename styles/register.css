@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  #heading {
+    border: 0px solid black;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(242, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #heading p {
+    margin-top: 10px;
+  }
+  #heading > p ~ p {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #heading > h4 {
+    font-weight: 100;
+  }
+  #benifits {
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+  }
+  #benifits > img {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  #form {
+    border: 0px solid black;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #form > div {
+    border: 1px solid grey;
+    cursor: pointer;
+    height: 40px;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #form > div:nth-child(2) {
+    background-color: rgb(24, 76, 180);
+    background-color: rgb(44, 83, 163);
+    
+  }
+  #form > div:nth-child(2)>img, #form > div:nth-child(3)>img{
+    width: 10%;
+  }
+  #form > div:nth-child(3){
+    margin-bottom: 50px;
+  }
+  #form > div > img {
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+  }
+  #form > form {
+    border: 0px solid red;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #form > form > input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0px 10px 20px;
+    margin-top: 30px;
+    background-color: rgb(255, 246, 246);
+    border: 0px;
+    height: 50px;
+  }
+  form > p {
+    text-align: left;
+    margin-top: 20px;
+  }
+  form > span {
+    width: 40%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  #date{
+    background-color: rgb(255, 246, 246);
+  }
+  input[type=radio]{
+    width: 25px;
+    height: 25px;
+  }
+  #checkBox>input{
+    width: 100px;
+  margin-right: 10px;
+    border: 0px solid black;
+  }
+  #checkBox{
+    border: 0px solid black;
+    background-color: rgb(255, 246, 246);
+    display: flex;
+    margin-top: 20px;
+    text-align: left;
+   
+    color: grey;
+    font-size: 13px;
+  }
+  #submit{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
