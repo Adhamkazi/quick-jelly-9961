@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <div id="footer_outer">
@@ -42,25 +43,33 @@
 
 
 
-            <div class="style_inner_footer">
-                <span><i class="ri-mail-line"></i></span>
+            <div class="style_inner_footer" id="style_news1">
+                <div id="style_news2">
+                    <span><i class="ri-mail-line"></i></span>
                 <h2>YOOX NEWS</h2>
                 <p>Sign up for the newsletter
                     and discover the latest arrivals and promotions
                 </p>
                 <div>
-                    <input type="text" placeholder="INSERT YOUR E-MAIL ADDRESS">
+                    <input type="text" placeholder="INSERT YOUR E-MAIL ADDRESS" id="f_email" required>
                 </div>
-                <div>
-                    <input type="radio" name="gender" value="woman">
-                    <input type="radio" name="gender" value="Man">
+                <div style="width: 103%;">
+                    <fieldset data-role="controlgroup" style="border:none;">
+                          <label for="male">Male</label>
+                          <input type="radio" name="gender" id="male" value="male" checked>
+                          <label for="female">Female</label>
+                          <input type="radio" name="gender" id="female" value="female">
+                        </fieldset>
+                  
                 </div>
-                <div>
+                <div id="chkbox">
                     <input type="checkbox">
                     <p>	I consent to receive YOOX newsletters via email. For further information, please consult the Privacy Policy.
                     </p>
                 </div>
                 <button>SIGN UP</button>
+                </div>
+                
             </div>
 
 
@@ -71,7 +80,7 @@
 
 
             <div class="style_inner_footer">
-                <h2>MYYOOX</h2>
+                <h2>MY YOOX</h2>
                 <hr>
                 <div>
                     <ul>
@@ -101,6 +110,33 @@
 
         </div>
 
+    </div>
+
+    <hr>
+
+    <div class="footer_social">
+        <div id="f_icon" class="style_f_icon">
+            <span>CONNECT WITH US</span>
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-youtube-fill"></i></span>
+            <span><i class="ri-pinterest-fill"></i></span>
+            
+
+        </div>
+        <div class="f_mob_icon">
+            <span><i class="ri-smartphone-line"></i></span>
+            <span><i class="ri-smartphone-line" id="smrt_mob"></i></span>
+            <span><p>DOWNLOAD THE APP FOR iOS / ANDROID</p></span>
+        </div>
+    </div>
+
+    <div class="last_footer">
+        <div id="style_last_footer_p">
+            <p class="style_p">POWERED BY YOOX NET-A-PORTER GROUP - COPYRIGHT © 2000-2022 YOOX NET-A-PORTER GROUP S.P.A. - ALL RIGHTS RESERVED - SIAE LICENCE # 401/I/526</p>
+            <p>LEGAL AREA / PRIVACY POLICY</p>
+        </div>
     </div>
 </body>
 </html>
