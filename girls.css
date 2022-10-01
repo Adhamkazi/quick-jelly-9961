@@ -5,9 +5,18 @@
     width: 100%;
     background-color: #333333;
     justify-content: center;
-    /* position: fixed;
-z-index: 2;
-margin-top: -10px; */
+    position: fixed;
+    z-index: 1;
+    margin-top: 87px;
+
+}
+
+#navbar {
+    margin-top: -9px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
 }
 
 #shopping_categroy p {

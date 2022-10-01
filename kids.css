@@ -5,9 +5,18 @@
     width: 100%;
     background-color: #333333;
     justify-content: center;
-    /* position: fixed; */
-    /* z-index: 2; */
-    /* margin-top: -10px; */
+    position: fixed;
+    z-index: 1;
+    margin-top: 87px;
+
+}
+
+#navbar {
+    margin-top: -9px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
 }
 
 #shopping_categroy p {
@@ -145,25 +154,25 @@
     margin-top: 40px;
 }
 
-#cloths div {
+.slide div {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     background-color: #fff;
     margin-top: 20px;
 }
 
-#cloths div p {
+.slide div p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
 }
 
-#cloths div h5 {
+.slide div h5 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
-#cloths div h3 {
+.slide div h3 {
     text-align: center;
     text-decoration: line-through;
     font-family: 'Montserrat', sans-serif;
@@ -267,4 +276,65 @@
 
 #last_img img {
     width: 100%;
+}
+
+
+.slider-wrapper {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides-container {
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.slide-arrow {
+    position: absolute;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 4rem;
+    /* background-color: #fff; */
+    border: none;
+    width: 2rem;
+    font-size: 3rem;
+    padding: 0;
+    cursor: pointer;
+    transition: opacity 100ms;
+}
+
+
+#slide-arrow-prev {
+    left: 0;
+    padding-left: 80px;
+
+}
+
+#slide-arrow-next {
+    right: 0;
+    padding-right: 120px;
+
+}
+
+.slide {
+    width: 100%;
+    flex: 1 0 100%;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    gap: 10px;
 }
