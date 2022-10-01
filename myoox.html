@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYOOX</title>
+</head>
+<style>
+    .myoox{
+        border: 1px solid red;
+        height: 150px;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+    }
+   details{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 15%;
+    margin: auto;
+    background-color: white;
+    line-height: 30px;
+   }
+   details{
+    margin-top: 35px;
+   }
+   .user_info{
+    background-color: rgb(237, 236, 233);
+    height: 800px;
+    width: 100%;
+    
+   }
+   .hello{
+    background-color: white;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+   
+   }
+</style>
+<body>
+    <div class="myoox">
+        <details>
+            <summary style="font-size:25px;">MYOOX</summary>
+            <h3>MYOOX</h3>
+            <p>MY ORDERS</p>
+            <p>DREAM BOX</p>
+            <p>MY DETAILS</p>
+            <p>PREMIERE</p>
+            <p>MONEYOOX</p>
+            <p>MY SIZE</p>
+            <HR></HR>
+            <p>LOGOUT</p>
+        </details>
+        <p>This area of YOOX is designed exclusively for you</p>
+    </div>
+    <div class="user_info">
+         <div class="hello">
+
+         </div>
+    </div>
+</body>
+</html>
+<script>
+    let user_data = JSON.parse(localStorage.getItem("user_data")) || [];
+    console.log(user_data)
+    user_data.forEach(element => {
+        let div = document.querySelector(".hello");
+    let name = document.createElement("h1");
+    name.innerText = "jhwegvf";
+    div.append(name);
+    });
+   
+</script>
