@@ -18,7 +18,7 @@ const navbar = () => {
 
 
           <div><a href="./womens.html"><span>WOMEN</span></a></div>
-          <div><a href="./mens.html"><span>MEN</span></a></div>
+          <div><a href="./index.html"><span>MEN</span></a></div>
           <div><a href="./kids.html"><span>KIDS</span></a></div>
           <div><a href="./design.html"><span>DESIGN+ART</span></a></div>
   
