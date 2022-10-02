@@ -1,3 +1,10 @@
+import {navbar} from "./components/navbar.js";
+let navbar_div = document.getElementById("navbar");
+navbar_div.innerHTML  = navbar();
+
+
+
+
 let user_data = JSON.parse(localStorage.getItem("user_data")) || [];
 
 let submit = document.getElementById("submit");
