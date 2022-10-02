@@ -5,17 +5,36 @@ let navbar_div = document.getElementById("navbar");
 navbar_div.innerHTML = navbar();
 
 
-let slidec = document.getElementById("slides-container");
-let a = document.querySelector(".slide");
-let prevbtn = document.getElementById("slide-arrow-prev");
-let nextbtn = document.getElementById("slide-arrow-next");
+let slidesContainer = document.getElementById("slides-container");
+let slide = document.querySelector(".slide");
+let prevButton = document.getElementById("slide-arrow-prev");
+let nextButton = document.getElementById("slide-arrow-next");
 
-nextbtn.addEventListener("click", () => {
-    let slideWidth = a.clientWidth;
-    slidec.scrollLeft += slideWidth;
+nextButton.addEventListener("click", () => {
+    let slideWidth = slide.clientWidth;
+    slidesContainer.scrollLeft += slideWidth;
 });
 
-prevbtn.addEventListener("click", () => {
-    let slideWidth = a.clientWidth;
-    slidec.scrollLeft -= slideWidth;
+prevButton.addEventListener("click", () => {
+    let slideWidth = slide.clientWidth;
+    slidesContainer.scrollLeft -= slideWidth;
+});
+
+
+
+
+
+let slidesContainerMain = document.getElementById("slides-container-a");
+let slideDiv = document.querySelector(".slide");
+let forPrevButton = document.getElementById("slide-arrow-prev-a");
+let ForNextButton = document.getElementById("slide-arrow-next-a");
+
+ForNextButton.addEventListener("click", () => {
+    let slideWidth = slideDiv.clientWidth;
+    slidesContainerMain.scrollLeft += slideWidth;
+});
+
+forPrevButton.addEventListener("click", () => {
+    let slideWidth = slideDiv.clientWidth;
+    slidesContainerMain.scrollLeft -= slideWidth;
 });

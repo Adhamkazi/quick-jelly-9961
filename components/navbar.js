@@ -7,8 +7,8 @@ const navbar = () => {
       </div>
 
       <div class="style_sub_top_div style_reg">
-          <div id=""><a  href="#"><span><i class="ri-pencil-line"></i>REGISTER</span></a></div>
-          <div id=""><a  href="#"><span><i class="ri-lock-unlock-line"></i>LOGIN</span></a></div>
+          <div id=""><a  href="register.html"><span><i class="ri-pencil-line"></i>REGISTER</span></a></div>
+          <div id=""><a  href="login.html"><span><i class="ri-lock-unlock-line"></i>LOGIN</span></a></div>
       </div>
      
   </div>
