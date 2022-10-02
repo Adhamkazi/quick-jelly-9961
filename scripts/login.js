@@ -9,7 +9,7 @@ submit.addEventListener("click", () => {
   let email = document.querySelector("#email").value;
   let password = document.querySelector("#password").value;
   let userobj = { emailaddress: email, pass: password };
-  isSignedin = false;
+  let isSignedin = false;
   user_data.forEach(function (ele) {
     if (userobj.emailaddress == "" || userobj.pass == "") {
       alert("field is empty !");

@@ -1,1 +1,76 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(255, 246, 246);
+}
+
+.login_page{
+border: 0px solid black;
+text-align: center;
+margin-top: 100px;
+}
+.login{
+border: 0px solid red;
+width: 60%;
+height: 350px;
+margin: auto;
+display: flex;
+background-color: white;
+margin-top: 20px;
+}
+.login>div{
+border: 0px solid blue;
+width: 50%;
+}
+.login>div>input{
+width: 90%;
+height: 50px;
+margin-top: 20px;
+font-weight: bold;
+font-size: 15px;
+padding-left: 20px;
+background-color: rgb(255, 246, 246);
+border: 0px;
+outline: none;
+}
+#submit{
+color: white;
+background-color: black;
+cursor: pointer;
+}
+#submit:hover, #REGISTER:hover{
+color: grey;
+}
+#register_fb, #register_google{
+border: 1px solid grey;
+width: 90%;
+height: 50px;
+cursor: pointer;
+margin: auto;
+margin-top: 20px;
+}
+#register_fb{
+background-color: rgb(44, 83, 163);
+}
+#register_fb>img, #register_google>img{
+width: 10%;
+}
+#REGISTER{
+width: 90%;
+height: 50px;   
+margin-top: 20px;
+font-weight: bold;
+font-size: 15px;
+padding-left: 20px;
+background-color: rgb(255, 246, 246);
+border: 0px;
+outline: none;
+cursor: pointer;
+}
+p,h2{
+margin-top: 25px;
+}
