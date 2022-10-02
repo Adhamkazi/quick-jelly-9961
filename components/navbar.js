@@ -1,5 +1,5 @@
 const navbar = () => {
-  return ` 
+    return ` 
   <div id="style_top_div">
       <div class="style_sub_top_div style_coun">
           <div id="country"><a href="#"><span>INDIA</span></a></div>
@@ -15,6 +15,8 @@ const navbar = () => {
 
   <div class="style_man_top_div">
       <div id="style_man_sub_top_div">
+
+
           <div><a href="./womens.html"><span>WOMEN</span></a></div>
           <div><a href="./mens.html"><span>MEN</span></a></div>
           <div><a href="./kids.html"><span>KIDS</span></a></div>

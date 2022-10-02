@@ -2,6 +2,14 @@
     --txt_icon: #28282B;
 }
 
+#navbar {
+    margin-top: -9px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+}
+
 #style_top_div {
     width: 80%;
     margin: auto;
