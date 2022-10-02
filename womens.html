@@ -5,13 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="quick-jelly-9961/style/navbar.css">
+    <link rel="stylesheet" href="/quick-jelly-9961/style/navbar.css">
     <link rel="stylesheet" href="/quick-jelly-9961/style/footer.css">
   <link rel="stylesheet" href="./womens.css">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
 </head>
 <body>
     <div id="navbar"></div>
+    <div id="shopping_categroy">
+        <p>NEW ARRIVALS </p>
+        <p>DESIGNERS</p>
+        <p>CLOTHING</p>
+        <p>SHOES</p>
+        <p>ACCESSORIES</p>
+        <p>YOOXYGEN</p>
+        <p>COLLABORATIONS</p>
+    </div>
     <div id="container">
         <div id="main_pic_content">
             <div id="main_pic">
@@ -204,11 +216,7 @@
     <div id="footer"></div>
 </body>
 </html>
-<script src="./mens.js" type="module"></script>
+<!-- <script src="./mens.js" type="module"></script> -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-<script>
-    import {footer} from "../components/footer.js"
-    let footer_div=document.getElementById("footer")
-    footer_div.innerHTML=footer();
-</script>
+<script type="module" src="./women.js"></script>
