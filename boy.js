@@ -46,4 +46,5 @@ function getformData() {
 
   localStorage.setItem("YooxUser", JSON.stringify(yooxUserArr));
   alert("your details saved");
+  document.getElementById("f_email").value = "";
 }
