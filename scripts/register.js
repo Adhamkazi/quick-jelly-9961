@@ -33,6 +33,6 @@ form.addEventListener("submit", () => {
   }
 
   localStorage.setItem("user_data", JSON.stringify(user_data));
-  alert("You are successfully registerd !");
+  alert("You are successfully registerd ! You are ready to log in !");
   window.location.href = "login.html";
 });
