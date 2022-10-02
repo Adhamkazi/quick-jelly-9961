@@ -15,8 +15,8 @@ const navbar = () => {
 
   <div class="style_man_top_div">
       <div id="style_man_sub_top_div">
-          <div><a href=""><span>WOMEN</span></a></div>
-          <div><a href="woman.html"><span>MEN</span></a></div>
+          <div><a href="./womens_page/womens.html"><span>WOMEN</span></a></div>
+          <div><a href="./mens_page/mens.html"><span>MEN</span></a></div>
           <div><a href="kids.html"><span>KIDS</span></a></div>
           <div><a href="design.html"><span>DESIGN+ART</span></a></div>
   
