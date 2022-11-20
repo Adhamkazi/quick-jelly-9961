@@ -21,7 +21,11 @@ submit.addEventListener("click", () => {
       isSignedin = true;
       localStorage.setItem("login", JSON.stringify(ele));
       alert("You are successfully Logged in !");
+<<<<<<< HEAD
       window.location.href = "./mens.html";
+=======
+      window.location.href = "./index.html";
+>>>>>>> 1265d616d586a51811fd65b56327131cb9513a82
     } else if (user_data.length == 0) {
       alert("no user till now");
       return;

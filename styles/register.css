@@ -5,6 +5,9 @@
   font-family: 'Montserrat',
     sans-serif;
 }
+#navbar{
+  top: 10px;
+}
 
 
 #heading {
@@ -17,6 +20,9 @@
   justify-content: center;
   align-items: center;
 }
+/* #navbar{
+  margin-top: 10px;
+} */
 
 #heading p {
   margin-top: 10px;

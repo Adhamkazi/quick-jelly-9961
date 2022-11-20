@@ -262,6 +262,7 @@ h4 {
     padding: 0;
     cursor: pointer;
     transition: opacity 100ms;
+    color: black;
 }
 
 

@@ -13,8 +13,13 @@ body{
     justify-content: center;
     position: fixed;
     z-index: 1;
-    /* margin-top: 87px; */
+    margin-top: 87px;
 
+}
+#shopping_categroy p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
 }
 
 
@@ -91,6 +96,7 @@ body{
 #container{
     width: 90%;
     margin: auto;
+     margin-top: 10px;
 }
 #main_pic_content{
     /* border: 1px red solid; */
@@ -180,12 +186,6 @@ text-align: center;
     display: block;
     margin-top: 100px;
 }
-
-/* #fixed_item>h1,#fixed_item>a{
-    
-    dis
-   
-} */
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
@@ -220,13 +220,12 @@ color: black;
 
 /* cell number */
 .carousel-cell:before {
-  display: block; */
-  /* text-align: center;
+  display: block; 
+  /* /* text-align: center;
   content: counter(carousel-cell);
   line-height: 200px; */
   /* font-size: 80px; */
-  /* color: white;
+  /* color: white; */
 }
 
-/*forth container ------------------------------------------------------------------------------------ */
 
