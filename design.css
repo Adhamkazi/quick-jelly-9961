@@ -11,13 +11,6 @@
 
 }
 
-/* #navbar {
-    margin-top: -9px;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    background-color: #fff;
-} */
 
 #shopping_categroy p {
     color: #fff;
@@ -269,6 +262,7 @@ h4 {
     padding: 0;
     cursor: pointer;
     transition: opacity 100ms;
+    color: black;
 }
 
 

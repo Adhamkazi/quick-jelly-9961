@@ -1,3 +1,24 @@
+import {footer} from "./components/footer.js"
+let footer_div=document.getElementById("footer")
+footer_div.innerHTML=footer();
+
+import { navbar } from "./components/navbar.js";
+// import { footer } from "./components/footer.js";
+console.log(navbar);
+
+let navbar_div = document.getElementById("navbar");
+navbar_div.innerHTML = navbar();
+
+
+
+
+
+
+
+
+
+
+
 let arr = JSON.parse(localStorage.getItem("products")) || [];
 
 let mensData = [
@@ -171,5 +192,6 @@ function create(x) {
 
 function btnfunc(elem, index) {
   arr.push(elem);
+  alert("Successfully added to cart")
   localStorage.setItem("products", JSON.stringify(arr));
 }

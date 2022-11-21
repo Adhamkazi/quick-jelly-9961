@@ -20,8 +20,11 @@ submit.addEventListener("click", () => {
     ) {
       isSignedin = true;
       localStorage.setItem("login", JSON.stringify(ele));
-      alert("You are successfully Logged in");
-      window.location.href = "./womens_page/womens.html";
+      alert("You are successfully Logged in !");
+
+      window.location.href = "./mens.html";
+      window.location.href = "./index.html";
+
     } else if (user_data.length == 0) {
       alert("no user till now");
       return;

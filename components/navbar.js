@@ -7,18 +7,20 @@ const navbar = () => {
       </div>
 
       <div class="style_sub_top_div style_reg">
-          <div id=""><a  href="register.html"><span><i class="ri-pencil-line"></i>REGISTER</span></a></div>
-          <div id=""><a  href="login.html"><span><i class="ri-lock-unlock-line"></i>LOGIN</span></a></div>
+          <div id=""><a  href="./register.html"><span><i class="ri-pencil-line"></i>REGISTER</span></a></div>
+          <div id=""><a  href="./login.html"><span><i class="ri-lock-unlock-line"></i>LOGIN</span></a></div>
       </div>
      
   </div>
 
   <div class="style_man_top_div">
       <div id="style_man_sub_top_div">
-          <div><a href="./womens_page/womens.html"><span>WOMEN</span></a></div>
-          <div><a href="./mens_page/mens.html"><span>MEN</span></a></div>
-          <div><a href="kids.html"><span>KIDS</span></a></div>
-          <div><a href="design.html"><span>DESIGN+ART</span></a></div>
+
+
+          <div><a href="./womens.html"><span>WOMEN</span></a></div>
+          <div><a href="./index.html"><span>MEN</span></a></div>
+          <div><a href="./kids.html"><span>KIDS</span></a></div>
+          <div><a href="./design.html"><span>DESIGN+ART</span></a></div>
   
       </div>
       <div >

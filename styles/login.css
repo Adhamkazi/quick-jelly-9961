@@ -7,11 +7,14 @@
 body{
 background-color: rgb(255, 246, 246);
 }
+#navbar{
+    margin-top: -150px;
+}
 
 .login_page{
 border: 0px solid black;
 text-align: center;
-margin-top: 100px;
+margin-top: 150px;
 }
 .login{
 border: 0px solid red;
